@@ -619,11 +619,14 @@ const Cards = () => {
       {cardsData.map((card, idx) => (
         <div
           key={card.className}
-          ref={(el) => (cardRefs.current[idx] = el)}
-          className={`${card.className} overflow-hidden  mb-10 border-2 border-[#C8D5E4]  rounded-[3rem] p-1 w-full max-w-5xl sticky top-[30vh] md:top-10 rounded-[2rem] z-10 ${card.top} h-[50vh]`}
           style={{
-            background: "#C6DAF6",
+            // boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
+            background: "#C6DAF6"
           }}
+          
+          ref={(el) => (cardRefs.current[idx] = el)}
+          className={`${card.className} overflow-hidden shadow-md  mb-10 border-2 border-[#C8D5E4]  rounded-[3rem] p-1 w-full max-w-5xl sticky top-[30vh] md:top-10 rounded-[2rem] z-10 ${card.top} h-[50vh]`}
+         
         >
           <div
                 className="card flex flex-col items-center   rounded-xl justify-evenly py-6 gap-6 w-full h-full relative transition-all duration-300 hover:shadow-2xl hover:scale-[1.02]"
