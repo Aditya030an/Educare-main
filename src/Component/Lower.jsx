@@ -2,20 +2,37 @@ import React from 'react'
 import Goal from './Goal'
 import Mission from './Mission'
 import Vision from './Vision'
-  function Lower() {
+
+
+function Lower() {
   return (
-    <div className='w-[90vw] h-[90vh]  rounded-3xl overflow-hidden flex'>
-      <div className="left  transition-all duration-300 object-contain hover:w-[50vw] w-[30vw] h-full">
-        <Goal/>
-      </div>
-        <div className="center  border-l-4 border-r-4  border-white-500  transition-all duration-300 object-contain hover:w-[50vw] w-[30vw] h-full">
-        <Mission/>
-      </div>
-      <div className="right transition-all duration-300 hover:w-[50vw] w-[30vw] h-full">
-        <Vision/>
+    <div className='w-full relative min-h-[300vh] bg-gray-100'>
+      <div className="container relative w-full">
+
+        {/* Vision */}
+        <div className="h-[100vh] relative z-10">
+          <div className="sticky top-0 w-full h-screen bg-black flex items-center justify-center text-white text-4xl font-bold">
+            Vision
+          </div>
+        </div>
+
+        {/* Mission */}
+        <div className="h-[100vh] relative z-20">
+          <div className="sticky top-0 w-full h-screen bg-white flex items-center justify-center text-black text-4xl font-bold">
+            Mission
+          </div>
+        </div>
+
+        {/* Goal */}
+        <div className="h-[100vh] relative z-30">
+          <div className="sticky top-0 w-full h-screen bg-red-800 flex items-center justify-center text-white text-4xl font-bold">
+            Goal
+          </div>
+        </div>
+
       </div>
     </div>
-  )
+  );
 }
 
-export default Lower
+export default Lower;
