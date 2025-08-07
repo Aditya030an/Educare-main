@@ -24,7 +24,7 @@ export default function OverlapPages() {
       </div>
 
       {/* Section 2 - About Section with Floating Blobs */}
-      <div className="main w-full relative h-[300vh] md:h-[240vh]  bg-black flex flex-col ">
+      <div className="main w-full relative h-[300vh] md:h-[250vh]  bg-black flex flex-col ">
      <div className="head md:h-[30%] p-10  h-[50%] md:w-full flex flex-col items-center justify-center md:p-10">
       <div className="abt mb-5 md:px-5 px-3 py-1 md:py-2 bg-white rounded-full">
         <h1 className='text-lg font-semibold'>About</h1>
@@ -41,10 +41,10 @@ export default function OverlapPages() {
       <div className="card1 flex justify-between flex-col md:flex-row items-center w-full sticky top-10 h-[50vh] md:h-[40vh] bg-white/10">
    <div className="info w-full md:w-[40%] h-[40%] md:h-full  flex ">
    <div className="left p-5 flex items-start w-1/2 h-full ">
-        <h1 className='text-[3rem] md:text-[5rem] text-white'>Vision</h1>
+        <h1 className='text-[3rem] md:text-4xl lg:text-5xl xl:text-7xl text-white'>Vision</h1>
       </div>
-      <div className="center  w-1/2 h-full ">
-        <img className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1753735880239-d2213c79d1e4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8" alt="" />
+      <div className="center overflow-hidden w-1/2 h-full ">
+        <img className="w-full h-full object-cover" src="edu3.avif" alt="" />
       </div>
    </div>
       <div className="right w-full md:w-[60%] px-4 md:p-10 h-full ">
@@ -55,10 +55,10 @@ export default function OverlapPages() {
       <div className="card2 flex justify-between flex-col md:flex-row items-center w-full sticky top-20 h-[50vh] md:h-[40vh] bg-black">
    <div className="info w-full md:w-[40%] h-[40%] md:h-full  flex ">
    <div className="left p-5 flex items-start w-1/2 h-full ">
-        <h1 className='text-[3rem] md:text-[5rem] text-white'>Mission</h1>
+        <h1 className='text-[3rem] md:text-4xl lg:text-5xl xl:text-7xl text-white'>Mission</h1>
       </div>
-      <div className="center  w-1/2 h-full ">
-        <img className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1754374325925-547540899995?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw4fHx8ZW58MHx8fHx8" alt="" />
+      <div className="center overflow-hidden  w-1/2 h-full ">
+        <img className="w-full h-full object-cover" src="edu1.avif" alt="" />
       </div>
    </div>
       <div className="right w-full md:w-[60%] px-4 md:p-10 h-full ">
@@ -68,10 +68,10 @@ export default function OverlapPages() {
         <div className="card3 flex justify-between flex-col md:flex-row items-center w-full sticky top-30 h-[50vh] md:h-[40vh] bg-[#FBFDFF]">
    <div className="info w-full md:w-[40%] h-[40%] md:h-full  flex ">
    <div className="left p-5 flex items-start w-1/2 h-full ">
-        <h1 className='text-[3rem] md:text-[5rem] text-black'>Goal</h1>
+        <h1 className='text-[3rem] md:text-4xl lg:text-5xl xl:text-7xl text-black'>Goal</h1>
       </div>
-      <div className="center  w-1/2 h-full ">
-        <img className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1742201949674-a5084b01418c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+      <div className="center overflow-hidden w-1/2 h-full ">
+        <img className="w-full h-full object-cover" src="edu2.avif" alt="" />
       </div>
    </div>
       <div className="right w-full md:w-[60%] px-4 md:p-10 h-full ">
