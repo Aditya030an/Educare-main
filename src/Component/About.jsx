@@ -10,6 +10,7 @@ import hester from "./photos/img 5.png";
 import calvin from "./photos/img 6.png";
 import lora from "./photos/img 7.png";
 import brett from "./photos/img 8.png";
+import { Link } from "react-router-dom";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -181,8 +182,8 @@ export default function TeamSection() {
       </div>
 
       {/* Call To Action */}
-      <div className="relative z-10 min-h-[80vh] mt-24 flex items-center justify-center px-6 bg-white/70 backdrop-blur-md">
-        <div className="max-w-2xl text-center p-10 bg-white rounded-2xl shadow-xl border border-blue-100">
+      <div className=" z-10 min-h-[100vh] md:h-[80vh] mt-24 flex   py-10 flex-col  items-center justify-start px-6 backdrop-blur-md">
+        {/* <div className="w-1/2 text-left p-10 h-full flex flex-col rounded-2xl shadow-xl border border-blue-100">
           <h3 className="text-3xl font-bold mb-4 text-gray-800">🚀 Join Our Mission</h3>
           <p className="text-gray-600 text-base mb-6">
             We’re building tools that empower education. If you’re passionate, skilled, and driven — we want to work with you.
@@ -190,6 +191,24 @@ export default function TeamSection() {
           <button className="px-6 py-2 bg-blue-600 text-white font-semibold rounded-full shadow hover:bg-blue-700 transition-all">
             See Open Positions
           </button>
+        </div> */}
+        <div className="box w-full md:w-1/2 bg-white/20 h-auto backdrop-blur-xl h-full">
+        <div className="head p-10 w-full">
+          <h1 className="text-[2rem] md:text-[5rem]">Join Our <span className="font-semibold text-blue-600">Mission</span></h1>
+        </div>
+        <div className="para 2-full p-5">
+          <p className="text-[2rem] md:text-[3rem]"> We’re building tools that empower education. If you’re passionate, skilled, and driven — we want to work with you.
+          </p>
+        </div>
+        </div>
+        <div className=" w-full  md:w-1/2 flex     md:items-center justify-start md:justify-center">
+        <button className="relative group !font-bold !p-2 !rounded-md  ">
+            <Link style={{boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px"}} to={"/"} className=" overflow- relative    hover:-translate-y-1 hover:scale-105 transition-all duration-300 flex items-center gap-2  !text-lg bg-black !font-bold !px-4 !py-4  !rounded-md   !w-fit !h-fit">
+              <h1 className="z-10 text-white !text-lg !font-normal group-hover:text-black transition-all duration-300">See Open Postions</h1>
+              <div className="absolute rounded-md z-1 opacity-0 group-hover:opacity-100 scale-0 group-hover:scale-100 top-0 left-0 w-[100%] h-full bg-white     transition-all duration-300"></div> 
+            <span className="group-hover:scale-125 z-100 text-[4rem] transition-all absolute    group-hover:right-[-70%] duration-300 right-[-60%]">🚀</span>
+          </Link>
+            </button>
         </div>
       </div>
     </section>
