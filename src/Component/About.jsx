@@ -193,7 +193,7 @@ export default function TeamSection() {
           </button>
         </div> */}
         <div className="box w-full md:w-[70%] bg-white/20 h-auto backdrop-blur-xl h-full">
-        <div className="head p-10 w-full">
+        <div className="head py-10 px-5 w-full">
           <h1 className="text-[2rem] md:text-[5rem]">Join Our <span className="font-semibold text-blue-600">Mission</span></h1>
         </div>
         <div className="para 2-full p-5">
