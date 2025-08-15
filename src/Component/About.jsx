@@ -182,7 +182,7 @@ export default function TeamSection() {
       </div>
 
       {/* Call To Action */}
-      <div className=" z-10 min-h-[100vh] md:h-[80vh] mt-24 flex   py-10 flex-col  items-center justify-start px-6 backdrop-blur-md">
+      <div className=" z-10 min-h-[100vh] md:min-h-[80vh] mt-24 flex  gap-10  py-10 flex-col  items-center justify-start px-6 backdrop-blur-md">
         {/* <div className="w-1/2 text-left p-10 h-full flex flex-col rounded-2xl shadow-xl border border-blue-100">
           <h3 className="text-3xl font-bold mb-4 text-gray-800">🚀 Join Our Mission</h3>
           <p className="text-gray-600 text-base mb-6">
