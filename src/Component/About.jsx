@@ -182,7 +182,7 @@ export default function TeamSection() {
       </div>
 
       {/* Call To Action */}
-      <div className=" z-10 min-h-[100vh] md:min-h-[80vh] mt-24 flex  gap-10  py-10 flex-col  items-center justify-start px-6 backdrop-blur-md">
+      <div className=" z-10 min-h-[100vh] md:min-h-[60vh] w-[100%]   mt-24 flex  gap-10  py-10 flex-col  items-center justify-start px-6 backdrop-blur-md">
         {/* <div className="w-1/2 text-left p-10 h-full flex flex-col rounded-2xl shadow-xl border border-blue-100">
           <h3 className="text-3xl font-bold mb-4 text-gray-800">🚀 Join Our Mission</h3>
           <p className="text-gray-600 text-base mb-6">
@@ -192,7 +192,7 @@ export default function TeamSection() {
             See Open Positions
           </button>
         </div> */}
-        <div className="box w-full md:w-1/2 bg-white/20 h-auto backdrop-blur-xl h-full">
+        <div className="box w-full md:w-[70%] bg-white/20 h-auto backdrop-blur-xl h-full">
         <div className="head p-10 w-full">
           <h1 className="text-[2rem] md:text-[5rem]">Join Our <span className="font-semibold text-blue-600">Mission</span></h1>
         </div>
