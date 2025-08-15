@@ -192,14 +192,16 @@ export default function TeamSection() {
             See Open Positions
           </button>
         </div> */}
-        <div className="box w-full md:w-[70%] bg-white/20 h-auto backdrop-blur-xl h-full">
-        <div className="head py-10 px-5 w-full">
-          <h1 className="text-[2rem] md:text-[5rem]">Join Our <span className="font-semibold text-blue-600">Mission</span></h1>
+        <div className="box w-full md:w-[80%] bg-white/20 h-auto backdrop-blur-xl h-full">
+       <div className="text flex flex-col items-center justify-center w-full h-auto ">
+       <div className="head px-5 w-full">
+          <h1 className="text-[2rem] mt-4 md:text-[6rem]">Join Our <span className="font-semibold text-blue-600">Mission</span></h1>
         </div>
-        <div className="para 2-full p-5">
-          <p className="text-[2rem] md:text-[3rem]"> We’re building tools that empower education. If you’re passionate, skilled, and driven — we want to work with you.
+        <div className="para 2-full  p-5">
+          <p className="text-[2rem] md:text-[3.5rem]"> We’re building tools that empower education. If you’re passionate, skilled, and driven — we want to work with you.
           </p>
         </div>
+       </div>
         </div>
         <div className=" w-full  md:w-1/2 flex     md:items-center justify-start md:justify-center">
         <button className="relative group !font-bold !p-2 !rounded-md  ">
